@@ -1,8 +1,9 @@
 # ETL_Housing-Dataset (Extract,Transform,Load - Data_Pipeline)
 
-In this project I have built ETL pipeline for the housing data containing 63,474 records.
-
+In this project I have built ETL pipeline for the housing data containing 63K+ records.
 The source of the data was a Datacamp URL containing the CSV file.
+
+CSV → Extract.py → Transform.py → Load.py → Execute.py → PostgreSQL → Creating Insights → Exporting Insights.py
 
 ## 1st stage (Extract): 
 The first stage of the process is to create a python script to Extact data (Extract.py). I have first set source path and desitination path and then defined Object oriented function to download snapshot of the data into the destination folder.
